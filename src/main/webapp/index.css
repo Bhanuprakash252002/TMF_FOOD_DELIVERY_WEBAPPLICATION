@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+#head {
+	display: flex;
+	justify-content: space-between;
+	align-items: left;
+	padding: 10px 20px;
+	background-color: #f8f9fa; /*
+	Optional: background color;
+}
+
+#head ul {
+	display: inline-flex; list-style-type : none;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.menu li {
+	margin-right: 20px;
+}
+
+.menu li:last-child {
+	margin-right: 0;
+}
